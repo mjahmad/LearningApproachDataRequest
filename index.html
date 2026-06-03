@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Request for the Data Used in the Paper</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="page">
+    <form class="form-card" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <!--
+        IMPORTANT:
+        1. Replace YOUR_FORM_ID above with your real Formspree endpoint.
+        2. After upload to GitHub Pages, update _redirect below to your live thank-you page.
+      -->
+      <input type="hidden" name="_subject" value="New data request: Untold Impact of Learning Approaches paper" />
+      <input type="hidden" name="_redirect" value="thank-you.html" />
+      <input type="text" name="_gotcha" class="hidden-field" tabindex="-1" autocomplete="off" aria-hidden="true" />
+
+      <section class="intro block">
+        <div class="top-bar"></div>
+        <h1>
+          <span class="highlight">Request for the data used in the paper</span><br />
+          “The Untold Impact of Learning Approaches on Software Fault-Proneness Predictions:
+          An Analysis of Temporal Aspects”
+        </h1>
+        <p class="note">
+          Please complete this form to request access to the data associated with the aforementioned journal publication.
+          Access is contingent upon verifying your email and approval by the data author.
+        </p>
+        <p class="required-note">* Required</p>
+      </section>
+
+      <section class="question block">
+        <label for="institutional_email">Institutional Email <span class="required">*</span></label>
+        <input id="institutional_email" name="Institutional Email" type="email" required autocomplete="email" />
+      </section>
+
+      <section class="question block">
+        <label for="name">Name <span class="required">*</span></label>
+        <input id="name" name="Name" type="text" required autocomplete="name" />
+      </section>
+
+      <section class="question block">
+        <label for="institution">Institution/Organization <span class="required">*</span></label>
+        <input id="institution" name="Institution/Organization" type="text" required autocomplete="organization" />
+      </section>
+
+      <section class="question block">
+        <label for="use_description">
+          Please provide a brief description of how you intend to use the <span class="highlight">data</span>
+          <span class="required">*</span>
+        </label>
+        <textarea id="use_description" name="Intended Use Description" rows="4" required></textarea>
+      </section>
+
+      <section class="question block">
+        <fieldset>
+          <legend>
+            By requesting access to these <span class="highlight">data</span>, I acknowledge and agree to the following
+            terms and conditions: <span class="required">*</span>
+          </legend>
+
+          <div class="agree-header">I agree</div>
+
+          <label class="agreement-row">
+            <span>
+              I hereby request access to the <span class="highlight">data</span> associated with the aforementioned
+              journal publication. The <span class="highlight">data</span> will be used for research and academic
+              purposes as previously described.
+            </span>
+            <input type="checkbox" name="Agreement 1" value="I agree" required />
+          </label>
+
+          <label class="agreement-row">
+            <span>
+              I will use the <span class="highlight">data</span> exclusively for the purposes previously mentioned and
+              will not engage in any commercial or unethical activities with it.
+            </span>
+            <input type="checkbox" name="Agreement 2" value="I agree" required />
+          </label>
+
+          <label class="agreement-row">
+            <span>
+              I will not redistribute this <span class="highlight">data</span> or share access with others. Any third
+              party, including those from my institution, must independently request and be granted access to the
+              <span class="highlight">data</span>.
+            </span>
+            <input type="checkbox" name="Agreement 3" value="I agree" required />
+          </label>
+
+          <label class="agreement-row">
+            <span>
+              I will properly cite the source of the <span class="highlight">data</span> in any resulting publications
+              or presentations, using the citation given by the <span class="highlight">data</span> provider or publisher.
+            </span>
+            <input type="checkbox" name="Agreement 4" value="I agree" required />
+          </label>
+
+          <label class="agreement-row">
+            <span>
+              I will provide the <span class="highlight">data</span> provider or publisher with a copy of any publications
+              or research outputs that result from the use of the <span class="highlight">data</span>.
+            </span>
+            <input type="checkbox" name="Agreement 5" value="I agree" required />
+          </label>
+
+          <label class="agreement-row">
+            <span>I will not share this <span class="highlight">data</span> with anybody else.</span>
+            <input type="checkbox" name="Agreement 6" value="I agree" required />
+          </label>
+        </fieldset>
+      </section>
+
+      <section class="notice">
+        <strong>
+          The access to the <span class="highlight">data</span> is contingent upon verifying your email and approval by
+          the <span class="highlight">data</span> author. You will receive an email notification of the approval,
+          including instructions on how to access the <span class="highlight">data</span>. Thank you.
+        </strong>
+      </section>
+
+      <section class="actions block">
+        <button type="submit">Submit request</button>
+        <button type="reset" class="secondary">Clear form</button>
+      </section>
+    </form>
+  </main>
+</body>
+</html>
